@@ -1,0 +1,25 @@
+---
+abstract: 'Use Data::Dump to dump data à la Steven Haryanto'
+author:
+  - 'Steven Haryanto <stevenharyanto@gmail.com>'
+build_requires:
+  Module::Build: 0.3601
+configure_requires:
+  Module::Build: 0.3601
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300002, CPAN::Meta::Converter version 2.112150'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Data-Dump-Ala-SHARYANTO
+requires:
+  Capture::Tiny: 0
+  Data::Dump: 1.17
+  DateTime: 0
+  Exporter::Lite: 0
+  perl: 5.010
+resources:
+  homepage: http://search.cpan.org/dist/Data-Dump-Ala-SHARYANTO/
+  repository: http://github.com/sharyanto/perl-Data-Dump-Ala-SHARYANTO
+version: 0.01

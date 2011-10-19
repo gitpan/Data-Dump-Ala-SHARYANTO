@@ -1,0 +1,34 @@
+NAME
+    Data::Dump::Ala::SHARYANTO - Use Data::Dump to dump data Ã  la Steven
+    Haryanto
+
+VERSION
+    version 0.01
+
+SYNOPSIS
+     use Data::Dump::Ala::SHARYANTO;
+     dd(...);
+
+DESCRIPTION
+    Everyone prefers their dumps differently. I picked Data::Dump::Ala::*
+    namespace for author-customized Data::Dump routines.
+
+    This module dumps with DateTime objects converted to strings, e.g.
+    "2011-10-19".
+
+FUNCTIONS
+  dd(...)
+    Dump one or more data structures.
+
+SEE ALSO
+    Data::Dump
+
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2011 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
