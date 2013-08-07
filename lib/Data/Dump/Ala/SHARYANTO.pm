@@ -1,14 +1,15 @@
 package Data::Dump::Ala::SHARYANTO;
 
-use 5.010;
+use 5.010001;
 use strict;
 use warnings;
 use Data::Dump::Filtered qw();
 
-use Exporter::Lite;
+require Exporter;
+our @ISA = qw(Exporter);
 our @EXPORT = qw(dd);
 
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 sub dd {
     # dump_filtered always prints? unlike dd
@@ -30,10 +31,8 @@ sub dd {
 1;
 # ABSTRACT: Use Data::Dump to dump data à la Steven Haryanto
 
-
-
-
 __END__
+
 =pod
 
 =head1 NAME
@@ -42,7 +41,7 @@ Data::Dump::Ala::SHARYANTO - Use Data::Dump to dump data à la Steven Haryanto
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -75,10 +74,9 @@ Steven Haryanto <stevenharyanto@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Steven Haryanto.
+This software is copyright (c) 2013 by Steven Haryanto.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
